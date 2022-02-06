@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(255, 193, 100);
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px; 
+}
+.row{
+    display: flex;
+    margin-top: 80px;
+}
+.col-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 520px;
+    background-color: rgb(42, 44, 58);
+    color: #fff;
+    padding: 35px;
+}
+.col-left h1{
+    font-weight: 500;
+    padding-top: 25px;
+}
+.col-left p{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 7px 0;
+}
+.line{
+    width: 55px;
+    height: 3px;
+    background-color: coral;
+}
+.absolute{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.abso-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 4px 10px 4px #000;
+}
+.absolute p{
+    font-size: 17px;
+    color: #e7e5e5;
+}
+.col-right{
+    width: 60%;
+    background-color: #fff;
+}
+.pi{
+    font-size: 18px;
+    padding: 0 35px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+    line-height: 28px;
+    color: #333;
+}
+.pi::first-letter{
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+}
+/* ----------------------------------------------- */
+/* .col-right-bottom{
+    border-top: 0.3px solid #999;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 -5px 5px 0 rgb(216, 214, 214);
+}
+.col-right-bottom a{
+    margin-right: 12px;
+    text-decoration: none;
+    color: #999;
+}
+.col-right-bottom a:last-child{
+    margin-right: 0px;
+} */
+/* -------------------------------------------------------- */
+.col-right-bottom{
+    border-top: 0.3px solid #999;
+    padding: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -5px 5px 0 rgb(216, 214, 214);
+}
+.date p{
+    font-size: 15px;
+}
+.date p span{
+    font-weight: 700;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.comment-more{
+    margin-right: 14px;
+}
+.comment a img{
+    width: 25px;
+    height: 25px;
+}
